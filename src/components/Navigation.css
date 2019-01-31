@@ -1,0 +1,8 @@
+.navigation-link {
+  display: grid;
+  grid-template-columns: reapeat(auto-fit, minmax(350px,1fr));
+  justify-content: right;
+  margin: 10px;
+  padding: 3%;
+  height: 70px;
+}

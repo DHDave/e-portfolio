@@ -7,11 +7,14 @@ import Error from './components/PageNotFound';
 import Navigation from './components/Navigation';
 import './App.css';
 
+
+// import _img from './.jpg';
+
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
+       <BrowserRouter>
+        <div className='App'>
           <Navigation />
           <Switch> 
             <Route path='/' component={About} exact />
@@ -19,7 +22,7 @@ class App extends Component {
             <Route path='/contact' component={Contact} />
             <Route component={Error} />
           </Switch>
-          </div>
+        </div>
       </BrowserRouter>
     );
   }
