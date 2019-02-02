@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'; 
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Error from './components/PageNotFound';
-import Navigation from './components/Navigation';
+import About from './components/Pages/About/About';
+import Portfolio from './components/Pages/Portfolio/Portfolio';
+import Contact from './components/Pages/Contact/Contact';
+import Error from './components/Pages/PageNotFound/PageNotFound';
+import Navigation from './components/Navigation/Navigation';
 import './App.css';
 
 
