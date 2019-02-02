@@ -1,14 +1,14 @@
 {
-  "main.css": "/:DHDave/e-portfolio.git/static/css/main.80af99ff.chunk.css",
-  "main.js": "/:DHDave/e-portfolio.git/static/js/main.7e730b99.chunk.js",
-  "main.js.map": "/:DHDave/e-portfolio.git/static/js/main.7e730b99.chunk.js.map",
-  "static/js/1.a83a5571.chunk.js": "/:DHDave/e-portfolio.git/static/js/1.a83a5571.chunk.js",
-  "static/js/1.a83a5571.chunk.js.map": "/:DHDave/e-portfolio.git/static/js/1.a83a5571.chunk.js.map",
-  "runtime~main.js": "/:DHDave/e-portfolio.git/static/js/runtime~main.3ecc7736.js",
-  "runtime~main.js.map": "/:DHDave/e-portfolio.git/static/js/runtime~main.3ecc7736.js.map",
-  "static/media/leopard.jpg": "/:DHDave/e-portfolio.git/static/media/leopard.1cc62bd2.jpg",
-  "static/css/main.80af99ff.chunk.css.map": "/:DHDave/e-portfolio.git/static/css/main.80af99ff.chunk.css.map",
-  "index.html": "/:DHDave/e-portfolio.git/index.html",
-  "precache-manifest.3e715ea2382f73181d54735414f4de5a.js": "/:DHDave/e-portfolio.git/precache-manifest.3e715ea2382f73181d54735414f4de5a.js",
-  "service-worker.js": "/:DHDave/e-portfolio.git/service-worker.js"
+  "main.css": "/e-portfolio/static/css/main.7506a6ff.chunk.css",
+  "main.js": "/e-portfolio/static/js/main.0aa9ba4b.chunk.js",
+  "main.js.map": "/e-portfolio/static/js/main.0aa9ba4b.chunk.js.map",
+  "static/js/1.a83a5571.chunk.js": "/e-portfolio/static/js/1.a83a5571.chunk.js",
+  "static/js/1.a83a5571.chunk.js.map": "/e-portfolio/static/js/1.a83a5571.chunk.js.map",
+  "runtime~main.js": "/e-portfolio/static/js/runtime~main.8af9aca8.js",
+  "runtime~main.js.map": "/e-portfolio/static/js/runtime~main.8af9aca8.js.map",
+  "static/media/leopard.jpg": "/e-portfolio/static/media/leopard.1cc62bd2.jpg",
+  "static/css/main.7506a6ff.chunk.css.map": "/e-portfolio/static/css/main.7506a6ff.chunk.css.map",
+  "index.html": "/e-portfolio/index.html",
+  "precache-manifest.aca275a34c21671ac953f8b3cf2ab0bf.js": "/e-portfolio/precache-manifest.aca275a34c21671ac953f8b3cf2ab0bf.js",
+  "service-worker.js": "/e-portfolio/service-worker.js"
 }
