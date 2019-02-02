@@ -11,64 +11,42 @@ import nodeJS from './Images/nodeJS.png';
 const About = () => {
     return (
         <div>
-            <p><h2>About</h2></p>
-                <div>
-                    <br /><br /><br />
-                    <div className='container' >
-                        <div className='aside-1'></div>
-                        <div className='textbox'>I am a junior Full Stack Web Developer and UI/UX Javascript specialist. Check out my latest projects on the web portfolio page and feel free to take a look at my GitHub repositories to follow up the codes.</div>
-                        <div className='aside-2'></div>
-                    </div>
-                    <br /><br /><br /><br /><br /><br />
-                        <div className='textbox'>Click on the element of your interest below to x-ray its link to this website.</div>
-                    <br /><br /><br />
-                    <div className='container' >
-                        <div className='item'>
-                            <img src={javascript} alt='JavaScript logo' />
-                            <div className='overlay'>
-                                <h3>JavaScript</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={reactJS} alt='reactJS logo' />
-                            <div className='overlay'>
-                                <h3>ReactJS</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={css} alt='css logo' />
-                            <div className='overlay'>
-                                <h3>CSS</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={html5} alt='html5 logo' />
-                            <div className='overlay'>
-                                <h3>html5</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={nodeJS} alt='nodeJS logo' />
-                            <div className='overlay'>
-                                <h3>nodeJS</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={mongo} alt='mongo logo' />
-                            <div className='overlay'>
-                                <h3>mongoDB</h3>
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <img src={heroku} alt='heroku logo' />
-                            <div className='overlay'>
-                                <h3>heroku</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className='textbox-title' >
+                <p>About</p>
+            <div/>
+            <br /><br /><br />
+            <div className='container' >
+                <div className='aside-1'></div>
+                <div className='textbox-main'>I am a junior Full Stack Web Developer and UI/UX Javascript specialist. Check out my latest projects on the web portfolio page and feel free to take a look at my GitHub repositories to follow up the codes.</div>
+                <div className='aside-2'></div>
+            </div>
+            <br /><br /><br /><br /><br />
+           <div className='textbox-sub'>Click on the element of your interest below to x-ray its link to this website.</div>
+            <br />
+            <div className='container' >
+                < Stack name='JavaScript' logo={javascript} />
+                < Stack name='ReactJS' logo={reactJS} />
+                < Stack name='CSS' logo={css} />
+                < Stack name='html5' logo={html5} />
+                < Stack name='nodeJS' logo={nodeJS} />
+                < Stack name='mongoDB' logo={mongo} />
+                < Stack name='heroku' logo={heroku} />
+            </div>    
         </div>
+    </div>
     );
 };
+
+function Stack(props) {
+    return (
+        <div className='item'>
+            <img src={props.logo} alt={`${props.name} logo`} />
+            <div className='overlay'>
+                <h3>{props.name}</h3>
+            </div>
+        </div>
+
+    )
+}
 
 export default About;
