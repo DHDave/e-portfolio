@@ -14,7 +14,14 @@
     font-style: oblique <angle>;
     padding: -10%;
 }
-
+.textbox-main3{
+    flex: 2;
+    font-size: large;
+    font-family: Arial;
+    color: rgb(73, 153, 233);
+    font-style: oblique <angle>;
+    padding: -10%;
+}
 .textbox-sub{
     flex: 2;
     font-size: medium;
@@ -22,4 +29,48 @@
     color: #005CB9;
     font-style: oblique <angle>;
     padding: 2%;
+}
+
+.containerLogo {
+    display: flex;
+    font-family: Arial;
+    color: #005CB9;
+    font-size: medium;
+    width: 10%;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .containerLogo {
+        flex-direction: column;
+    }
+}
+
+.item {
+    flex: 1;
+    padding: 2.5%;
+    background-color: rgb(39, 37, 37);
+    border-style: solid;
+    border-color: rgb(36, 35, 34);
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: Arial;
+    color: rgb(4, 63, 122);
+}
+
+.overlay {
+    transition: bottom ease 1s;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    padding: -2%;
+    opacity: .7;
+    background-color: antiquewhite;
+}
+
+.item:hover .overlay {
+    opacity: 0.6;
+    bottom: 0;
 }

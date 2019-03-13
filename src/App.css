@@ -9,7 +9,14 @@ body{
 
 img{
   width: 51%;
-  /* background-color: rgb(99, 93, 93); */
-
 } 
 
+.img1{
+    width: 10%;
+    display: inline-block;
+}
+
+.img2{
+  width: 15%;
+  display: inline-block;
+}

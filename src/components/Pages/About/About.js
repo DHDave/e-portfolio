@@ -1,63 +1,59 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import "../../BurgerMenu/styles.css";
 import './About.css';
-import css from './Images/css.png';
-import heroku from './Images/heroku.jpeg';
-import html5 from './Images/html5.png';
-import javascript from './Images/javascript.png';
-import reactJS from './Images/reactJS.png';
-import mongo from './Images/mongoDB.png';
-import nodeJS from './Images/nodeJS.png';
-import Stack from './Stack';
-import gitHub from './Images/github.svg';
-import linkedIn from './Images/linkedIn1.svg';
+import linkedIn from '../../Images/linked-in-logo-of-two-letters2-8d8d9c.svg';
+import Diploma from '../../Images/Grad-graduate-showing-his-diploma-8d8d9c.svg';
+import Portfolio from '../../Images/man-in-office-desk-with-computer-8d8d9c.svg';
 
 const About = () => {
     return (
-        <div>
-            <div className='textbox-title' >
-                <p>About</p>
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"></link>
-            <div/>
-            <br />
-            <div className='container' >
-                <div className='aside-1'>
-                <div className='logos'>        
-                        <a href='https://github.com/DHDave'>
-                            <  img src={gitHub} alt = 'GitLogo' ></img>
-                        </a>
-                        <a href='https://www.linkedin.com/in/david-hajos'>
-                            <img src={linkedIn} alt = 'LinkedInLogo' ></img>
-                        </a>
+        <div className='container' >
+            <div className='container1' >
+                <div className='textbox-title' >
+                    <p>David Hajos</p>
+                    <div className='textbox-main' >
+                        <p>e-portfolio</p>
+                        <div className='multiCont'>
+                            <div className='menu-item2'>
+                                <a
+                                    href='https://www.linkedin.com/in/david-hajos'                                        target="_blank"
+                                    rel="noreferrer noopener">
+                                    <img src={linkedIn} alt = 'LinkedInLogo' ></img>
+                                </a>
+                            </div>
+                        </div>
+                        <br /><br />
+                        <div className='textbox-main1' >
+                            <p >I am a junior Full Stack Web Developer and UI/UX Javascript specialist. Check out my latest projects on the web portfolio page and feel free to take a look at my GitHub repositories to follow up the codes.</p>
+                        </div>
+                        <br />
+                        <div className='textbox-main2' >    
+                            <p className='imgbox'>
+                                <div className='menu-item2'>
+                                    <a>
+                                        <Link to="/Courses"><img src={Diploma} alt = 'Diploma' ></img></Link> 
+                                    </a>{" "}
+                                &nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div className='menu-item2'>
+                                    <a>
+                                        <Link to="/Portfolio"><img src={Portfolio} alt = 'Diploma' ></img></Link>
+                                    </a>{" "}
+                                </div>
+                                
+                            </p>
+                        </div>
+                        <br /><br />
+                        <div class="copyrightLine">
+                                <p>Copyright © 2019 Developed By David Hajos</p>          
+                        </div>
                     </div>
                 </div>
-                <div className='textbox-main'>I am a junior Full Stack Web Developer and UI/UX Javascript specialist. Check out my latest projects on the web portfolio page and feel free to take a look at my GitHub repositories to follow up the codes.</div>
-                <div className='aside-2'></div>
             </div>
-            <br />
-            {/* <div className='logos'>
-                <a href='https://github.com/DHDave'>
-                    <  img src={gitHub} alt = 'GitLogo' ></img>
-                </a>
-                <a href='https://www.linkedin.com/in/david-hajos'>
-                    <img src={linkedIn} alt = 'LinkedInLogo' ></img>
-                </a>
-            </div> */}
-            <br />
-            <div className='container' >
-                < Stack name='JavaScript' logo={javascript} />
-                < Stack name='ReactJS' logo={reactJS} />
-                < Stack name='CSS' logo={css} />
-                < Stack name='html5' logo={html5} />
-                < Stack name='nodeJS' logo={nodeJS} />
-                < Stack name='mongoDB' logo={mongo} />
-                < Stack name='heroku' logo={heroku} />
-            </div>    
         </div>
-    </div>
-    );
-};
-
-
+        );
+    };
 
 export default About;
 

@@ -1,0 +1,137 @@
+img {
+    block-size: 100%
+}
+.textbox-sub{
+    flex: 2;
+    justify-content: center;
+    font-size: medium;
+    font-family: Arial;
+    color: #005CB9;
+    font-style: oblique <angle>;
+    padding: 2%;
+}
+
+.aside-1 {
+  flex: 1;
+}
+
+.aside-2 {
+  flex: 1;
+  width: 5%;
+}
+.cont1{
+  flex: 1;
+} 
+.cont2{
+  flex: 2;
+  padding: 3%;
+}
+
+.cont3{
+  flex: 1;
+  padding: 1%;
+ font-size: 1em;
+}
+
+.multiCont{
+  display: flex;
+  justify-content: center;
+  /* padding: 2.5%; */
+  position: fixed;
+  width: 55px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.multiCont1{
+  display: flex;
+  justify-content: flex-end;
+  /* padding: 2.5%; */
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+.multiCont2{
+  display: flex;
+  justify-content: center;
+  padding: 2.5%;
+  width: 3px;
+  right: 36px;
+  top: 36px;
+}
+
+.container2{
+  justify-content: center;
+}
+
+.textbox-main1{
+    /* flex: 2; */
+    font-size: large;
+    font-family: Arial;
+    color: rgb(73, 153, 233);
+    font-style: oblique <angle>;
+    padding: 14%;
+}
+
+.textbox-main2{
+  block-size: 15%;
+  display: flex;
+  padding: 0em 4em 0;
+  justify-content: center;    
+}
+
+.imgbox {
+    block-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    /* This aligns items to the end line on main-axis */
+
+  }
+  
+  /* Medium screens */
+  @media all and (max-width: 800px) {
+    .imgbox {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      /* justify-content: space-around; */
+      /* block-size: 100%; */
+      width: 40%;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    .imgbox {
+      /* On small screens, we are no longer using row direction but column */
+      /* flex-direction: column; */
+      /* block-size: 30%; */
+      width: 80%;
+    }
+  }
+§/* Mobile screens */
+  @media all and (max-width: 470px) {
+    .imgbox {
+      /* On small screens, we are no longer using row direction but column */
+      /* flex-direction: column; */
+      /* block-size: 30%; */
+      width: 900%;
+    }
+  }
+
+  .copyrightLine {
+    font-size: x-small;
+    font-family: Arial;
+    color: rgb(73, 153, 233);
+    font-style: oblique <angle>;  
+  }
+
+  .smallLine{
+    font-size: small;
+    font-family: Arial;
+    color: rgb(73, 153, 233);
+    font-style: oblique <angle>;  
+  }
