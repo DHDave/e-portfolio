@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/e-portfolio/static/media/css_3-8d8d9c.9323e08e.svg"
   },
   {
-    "revision": "900d810fc4b9362b2477",
+    "revision": "adf2a596c42949e88fd3",
     "url": "/e-portfolio/static/css/main.69f9edaf.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/e-portfolio/static/media/github-8d8d9c.646725b0.svg"
   },
   {
-    "revision": "900d810fc4b9362b2477",
-    "url": "/e-portfolio/static/js/main.900d810f.chunk.js"
+    "revision": "adf2a596c42949e88fd3",
+    "url": "/e-portfolio/static/js/main.adf2a596.chunk.js"
   },
   {
     "revision": "efade3ca5401f22ff1472ceeaeefd4b9",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/e-portfolio/static/media/leopard.1cc62bd2.jpg"
   },
   {
-    "revision": "3c95a9f8b322c818e8d8f1372c5e9d35",
+    "revision": "561f569db82e170843199857355be52c",
     "url": "/e-portfolio/index.html"
   }
 ];
