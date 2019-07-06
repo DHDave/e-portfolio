@@ -14,7 +14,7 @@ const Error = () => {
                     <img src={Leo_img} alt='Sleeping leopard' />
                 </div>
                     <br /><br /><br />
-                    <p> <h3>Psst...let her sleep. </h3><br /><br /><br /></p>
+                    <p> <h3>Psst...let her sleep... </h3><br /><br /><br /></p>
                     <p>Sorry, the page you are looking for does not exist.</p>
                     <br /><br /><br />
                     <br /><br /><br />
